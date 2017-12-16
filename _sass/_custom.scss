@@ -1,0 +1,167 @@
+
+/*TYPOGRAFIE*/
+p,
+.tekst{
+    font-family: 'Lato';
+    font-weight: 300 !important;
+    font-size:1.1rem;
+    }
+
+h2{
+    font-size: 1.3rem;
+    font-family: 'Lato';
+    font-weight: 400 !important;
+    color: $darkgreen;
+    }
+
+h3{
+    font-family: 'Lato';
+    font-weight: 300 !important;
+    }
+
+.groenep{
+    color: $darkgreen;
+    }
+
+.onderschrift{
+    font-size:0.8rem;
+    margin: 40px 0px 30px 0px;
+    }
+
+.tekstpulmino{
+    color: $darkgreen;
+    text-align: center;
+    margin-top: 100px;
+    }
+
+.opening{
+    font-style: italic;
+    margin-bottom: 25px;
+    }
+
+/*VARIA*/
+.center{
+    text-align: center;
+    }
+
+.btn{
+    width: 350px;
+    border-radius: 2em;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: white;
+    }
+
+.btn:hover{
+    color: white;
+    }
+
+.iconenhome{
+    height: 90px;
+    margin-bottom: 20px;
+    }
+
+.iconeninfo{
+    height: 70px;
+    margin-bottom: 20px;
+    }
+
+.grijzekader{
+    background-color: rgb(235, 235, 235);
+    }
+
+a:link{
+    text-decoration: none;
+    }
+
+.weg{
+    height: 400px;
+    opacity: 0.9;
+    margin-top:30px;
+    margin-bottom:30px;
+    }
+
+.fotobevestiging{
+    height: 300px;
+    opacity: 0.8;
+    margin-top:30px;
+    margin-bottom:30px;
+
+}
+
+.titel {
+    text-align: center;
+    margin-bottom: 30px;
+    }
+
+.fotospgpulmino {
+    height: 250px;
+    opacity: 0.8;
+    }
+
+
+.gmap {
+    margin-bottom: 30px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    opacity: 0.8;
+    }
+
+.gegevens {
+    margin-left: 70px;
+    margin-top:30px;
+    }
+
+/* SELECTIE */
+/* roze tekst bij selectie */
+label:hover,
+.checkbox:hover {
+    color:$darkgreen;
+    }
+
+/* andere vakjes weg en vervagen  */
+input[type=checkbox] {
+    visibility: hidden;
+    position: absolute;
+    }
+
+/* vakjes */
+input[type=checkbox]+label:before {
+    height: 20px;
+    width: 20px;
+    border-radius: 0.2em;
+    margin-right: 20px;
+    margin-left:80px;
+    content: " ";
+    display: inline-block;
+    border: 1px solid rgb(194, 194, 194)
+    }
+
+/* inkleuring vakjes */
+input[type=checkbox]:checked+label:before {
+    background: $darkgreen;
+    }
+
+.table th, .table td {
+    border-top: 1px solid #ffffff;
+    }
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.2rem ;
+    }
+
+.aantaldagen{
+    padding: 0.2rem ;
+    margin-left:20px; 
+    }
+
+.betaling{
+    height: 72px;
+    margin-bottom: 35px;
+}
+
+.schuiven{
+    margin-left:60px; 
+}

@@ -1,0 +1,14 @@
+- title: Home
+  url: /index.html
+
+- title: Info
+  url: /info/infopagina.html
+  
+- title: Pulmino
+  url: /pulmino/pulminopagina.html
+  
+- title: Huur
+  url: /huur/huurpagina.html
+  
+- title: Contact
+  url: /contact/contactpagina.html

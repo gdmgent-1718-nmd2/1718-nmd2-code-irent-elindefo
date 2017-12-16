@@ -1,0 +1,54 @@
+@media (min-width: 576px) {
+/* NAV*/
+.navbar {
+      text-align:center;
+      padding:none;
+      }
+.navbar-header {
+      display:none; 
+      }
+.navbar-nav {
+      float: none;
+      }
+.navbar-nav-brand {
+      display:block !important;
+      }
+.nav-item{
+      margin:25px;
+      }
+.invers-navbar{
+      font-size: 5rem;
+}
+}
+
+.logo {
+      height: 200px;
+      margin: 0 auto;
+      display:block;
+      margin-top:20px;
+      }
+
+.collapse{
+      font-size:1.5rem;
+      font-family: 'Lato';
+      font-weight: 300 !important;
+      margin: 0 auto;
+      word-spacing: 60px;
+      }
+
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }

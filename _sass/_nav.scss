@@ -1,5 +1,15 @@
 @media (min-width: 576px) {
 /* NAV*/
+.navbar-light .navbar-nav .nav-link.active {
+      color:$primary;
+      }
+.navbar-light .navbar-nav .nav-link.hover {
+      font-size: 2rem;
+      font-weight: 400;
+      }
+.navbar-light .navbar-nav .nav-link {
+      color:$primary;
+            }
 .navbar {
       text-align:center;
       padding:none;
@@ -18,7 +28,15 @@
       }
 .invers-navbar{
       font-size: 5rem;
-}
+      }
+      .navbar-nav {
+            display: flex;
+            flex-direction: column;
+            padding-left: 0;
+            margin-bottom: 0;
+            list-style: none;
+        }
+
 }
 
 .logo {
@@ -36,8 +54,6 @@
       word-spacing: 60px;
       }
 
-
-
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
 
@@ -48,7 +64,20 @@
 @media (min-width: 768px) {  }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  }
+@media (min-width: 992px) { 
+      .navbar-expand-lg .navbar-nav {
+          flex-direction: row;
+      }
+      .navbar-nav {
+          width: 100%;
+      }
+      .mr-auto, .mx-auto {
+          margin-right: auto !important;
+      }
+ }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }
+
+@media (min-width: 992px){
+}

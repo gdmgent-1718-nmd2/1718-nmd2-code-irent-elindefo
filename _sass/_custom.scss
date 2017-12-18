@@ -39,6 +39,7 @@ h3{
     margin-bottom: 25px;
     }
 
+
 /*VARIA*/
 .center{
     text-align: center;
@@ -82,7 +83,6 @@ a:link{
     }
 
 .fotobevestiging{
-    height: 300px;
     opacity: 0.8;
     margin-top:30px;
     margin-bottom:30px;
@@ -90,7 +90,6 @@ a:link{
 }
 
 .titel {
-    text-align: center;
     margin-bottom: 30px;
     }
 
@@ -107,13 +106,9 @@ a:link{
     opacity: 0.8;
     }
 
-.gegevens {
-    margin-left: 70px;
-    margin-top:30px;
-    }
+
 
 /* SELECTIE */
-/* roze tekst bij selectie */
 label:hover,
 .checkbox:hover {
     color:$darkgreen;
@@ -158,10 +153,116 @@ input[type=checkbox]:checked+label:before {
     }
 
 .betaling{
-    height: 72px;
+    width: 100%;
     margin-bottom: 35px;
 }
 
 .schuiven{
     margin-left:60px; 
+}
+
+.banken{
+    width: 75px;
+    margin-bottom:10px;
+    
+}
+
+
+/***********************************************************/
+
+.header {
+  padding: 30px 0;
+  font-size: 20px;
+  text-align: center;
+  border-bottom: 1px solid #bbb;
+}
+
+
+/*
+* Buttons
+**********************************************************/
+
+.button {
+  position: relative;
+  border-bottom: $darkgreen;
+  background: #fafafa;
+  cursor: pointer;
+  margin-bottom:20px;
+}
+
+
+.button:after {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 18px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px #bbb, inset 0 0 0 7px #fff;
+  background: #fff;
+}
+
+.button:hover:after {
+  background: #bbb;
+}
+
+.button.active:after {
+  background: #555;
+}
+
+
+  .button {
+    float: left;
+    width: 140px;
+    height: 180px;
+    margin-right: 20px;
+    padding: 50px 0 0;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: inset 0 0 0 1px #bbb;
+  }
+
+  .button:after {
+    top: 15px;
+    left: 60px;
+  }
+
+  .lijntje {
+      border: 1px solid $darkgreen;
+    width: 50px;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+}
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {  }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  
+    .gegevens {
+        margin-left: 70px;
+        margin-top:30px;
+        }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+#date {
+    color: $darkgreen;
+    border-radius: 0.5rem;
+    border: 0.5px solid rgb(194, 194, 194);
+    padding: 2%;
 }

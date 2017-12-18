@@ -8,22 +8,32 @@
 </head>
 
 <body>
-<div class=container>
+    <A NAME="boven">
+<div class="container">
   <div class="row ">
     <div class="col-12">
-      <img class="logo center" src="{{ site.baseurl }}/assets/image/logo.png">
+        <a href="{{ site.baseurl }}/index.html"><img class="logo " src="{{ site.baseurl }}/assets/image/logo.png"></a>
     </div>
   </div>
 </div>
 
 {% include navbootstrap.html %}
-<div class=container>
-  <div class=row>
-  {{content}}
+
+<br>
+<div class="container">
+  <div class="row">
+    {{content}}
   </div>
 </div>
 
+
 {% include footer.html %}
+
+<div class=" center">
+    <A HREF="#boven" > <img class="logo iconenhome" src="{{ site.baseurl }}/assets/image/pijl.png">
+        </img>
+    </A>   
+</div>
 {% include navbootstrap.html %}
 {% include scripts-bottom.html %}
 </body>

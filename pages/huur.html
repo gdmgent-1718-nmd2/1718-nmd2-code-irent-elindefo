@@ -5,65 +5,69 @@ permalink: huur/huurpagina
 # ─────────────────────
 title: HUUR
 ---
-<div class="col-12 titel">
-        <h2>HUREN</h2>
+<div class="col-12 text-center">
+    <h2>HUUR</h2><hr class="lijntje">
 </div>
-<img class="betaling" src="{{ site.baseurl }}/assets/image/nummer1.jpg">
+
+<div class="col-12 text-center">
+    <img class="betaling" src="{{ site.baseurl }}/assets/image/nummer1.jpg">
+</div>
+
 
 <div class="col-12 col-md-12 center">
       <p>Waag jij de kans op dit fantastische avontuur ?<br> Vul dan snel je gegevens in !</p>
 </div>
+
     
-    
-<div class="col-5  gegevens">
+<div class="col-12  col-sm-12    col-md-5   col-lg-5  gegevens">
     <h2>Gegevens persoon 1*</h2><br>
         <form class="tekst">
             <div class="form-group row">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Naam</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control schuiven" id="inputEmail3">
+                        <input type="email" class="form-control " id="inputEmail3">
                     </div>
             </div>
             <div class="form-group row">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Voornaam</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control schuiven" id="inputEmail3">
+                        <input type="email" class="form-control " id="inputEmail3">
                     </div>
             </div>
             <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Adres</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control schuiven" id="inputEmail3">
+                        <input type="email" class="form-control " id="inputEmail3">
                     </div>
             </div>
             <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Tel./gsm</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control schuiven" id="inputEmail3">
+                        <input type="email" class="form-control " id="inputEmail3">
                     </div>
             </div>
             <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">E-mail</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control schuiven" id="inputEmail3">
+                        <input type="email" class="form-control " id="inputEmail3">
                     </div>
             </div>
             <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Geboortedatum</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control schuiven" id="inputEmail3">
+                        <input type="email" class="form-control " id="inputEmail3">
                     </div>
             </div>
             <div class="form-group row">
                     <label for="inputEmail3" class="col-sm-2 col-form-label">Rijbewijsnummer</label>
                     <div class="col-sm-10">
-                        <input type="email" class="form-control schuiven" id="inputEmail3">
+                        <input type="email" class="form-control " id="inputEmail3">
                     </div>
             </div>
         </form>
 </div>
     
-<div class="col-5 gegevens">
+<div class="col-12  col-sm-12    col-md-5   col-lg-5 gegevens">
     <h2>Gegevens persoon 2</h2><br>
            <form class="tekst">
                 <div class="form-group row">
@@ -128,26 +132,32 @@ title: HUUR
 <div class="form-group row">
     <label for="inputEmail3" class="col-sm-2 col-form-label ">Heendatum</label>
         <div class="col-sm-10">
-            <input type="email" class="form-control schuiven" id="inputEmail3">
+            <label for="date" class="label schuiven aantaldagen">
+                <input type="date" name="date" id="date">
+            </label>
         </div>
 </div>
 
+
 <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Terugdatum</label>
+    <label for="inputEmail3" class="col-sm-2 col-form-label ">Terugdatum</label>
         <div class="col-sm-10">
-            <input type="email" class="form-control schuiven" id="inputEmail3">
-</div>
-    
+            <label for="date" class="label schuiven">
+                <input type="date" name="date" id="date">
+            </label>
+        </div>
+</div> 
 </form>
-</div>
+
+<div>
     <div class="selectie tekst">
         <input type="checkbox" id="c1"><label class="vakje" for="c1"> Annulatieverzekering</label>
         <br>
         <input type="checkbox" id="c2"><label class="vakje" for="c2"> Pechbijstand</label>
         <br>
-<p class="onderschrift">* Verplichte velden</p>
+        <p class="onderschrift">* Verplichte velden</p>
     </div>
-
+</div>
 </div>
 
 <div class="col-12 col-md-5 gegevens">
@@ -178,7 +188,7 @@ title: HUUR
     </tbody>
 </table>
 <br>
-
-<div class="col-12 col-md-4 sf-grid-offset-2">
-    <a href="{{ site.baseurl }}/winkelmandje/overzicht.html"><button type="button" class="btn btn-success primary btn-lg">Volgende</button></a>
+<div class="col-md-6 "><a href="{{ site.baseurl }}/winkelmandje/overzicht.html"><button type="button" class="btn btn-success primary btn-lg">Volgende</button></a>
+<br>
 </div>
+

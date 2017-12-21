@@ -58,7 +58,7 @@ h3{
     }
 
 .iconenhome{
-    height: 90px;
+    height: 80px;
     margin-bottom: 20px;
     }
 
@@ -76,7 +76,6 @@ a:link{
     }
 
 .weg{
-    height: 400px;
     opacity: 0.9;
     margin-top:30px;
     margin-bottom:30px;
@@ -166,6 +165,10 @@ input[type=checkbox]:checked+label:before {
     margin-bottom:10px;
     
 }
+input[type="date"] {
+    width: 100%;
+}
+
 
 
 /***********************************************************/
@@ -254,6 +257,9 @@ input[type=checkbox]:checked+label:before {
     .gegevens {
         margin-left: 70px;
         margin-top:30px;
+        }
+    .weg{
+        height: 400px;
         }
 }
 

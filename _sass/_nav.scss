@@ -1,3 +1,5 @@
+
+
 @media (min-width: 576px) {
 /* NAV*/
 .navbar-light .navbar-nav .nav-link.active {
@@ -29,18 +31,19 @@
 .invers-navbar{
       font-size: 5rem;
       }
-      .navbar-nav {
-            display: flex;
-            flex-direction: column;
-            padding-left: 0;
-            margin-bottom: 0;
-            list-style: none;
-        }
+.navbar-nav {
+      display: flex;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      }
 
 }
 
+
 .logo {
-      height: 200px;
+      height: 180px;
       margin: 0 auto;
       display:block;
       margin-top:20px;
@@ -52,6 +55,15 @@
       font-weight: 300 !important;
       margin: 0 auto;
       word-spacing: 60px;
+      }
+
+.nav_footer{
+      font-size:0.5rem;
+      font-family: 'Lato';
+      font-weight: 400 !important;
+      margin: 0 auto;
+      word-spacing: 60px;
+      border: 1px solid black;
       }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -81,3 +93,7 @@
 
 @media (min-width: 992px){
 }
+
+
+
+

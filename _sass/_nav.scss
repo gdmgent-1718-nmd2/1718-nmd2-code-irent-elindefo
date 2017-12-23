@@ -1,23 +1,11 @@
-
-
 @media (min-width: 576px) {
 /* NAV*/
-.navbar-light .navbar-nav .nav-link.active {
+.navbar-light .navbar-nav .nav-link:hover {
+      font-size: 1.7rem;
       color:$primary;
-      }
-.navbar-light .navbar-nav .nav-link.hover {
-      font-size: 2rem;
-      font-weight: 400;
-      }
-.navbar-light .navbar-nav .nav-link {
-      color:$primary;
-            }
-.navbar {
-      text-align:center;
-      padding:none;
       }
 .navbar-header {
-      display:none; 
+      display:none;
       }
 .navbar-nav {
       float: none;
@@ -38,39 +26,20 @@
       margin-bottom: 0;
       list-style: none;
       }
-
-}
-
-
-.logo {
-      height: 180px;
-      margin: 0 auto;
-      display:block;
-      margin-top:20px;
-      }
-
 .collapse{
       font-size:1.5rem;
       font-family: 'Lato';
       font-weight: 300 !important;
-      margin: 0 auto;
       word-spacing: 60px;
       }
 
-.nav_footer{
-      font-size:0.5rem;
-      font-family: 'Lato';
+.collapse2{
+      color:rgb(255, 255, 255);
+      font-size:1rem;
       font-weight: 400 !important;
-      margin: 0 auto;
-      word-spacing: 60px;
-      border: 1px solid black;
+      margin: 0px;
       }
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {  }
@@ -87,7 +56,6 @@
           margin-right: auto !important;
       }
  }
-
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {  }
 
@@ -96,4 +64,10 @@
 
 
 
+.logo {
+      height: 180px;
+      margin: 0 auto;
+      display:block;
+      margin-top:20px;
+      }
 

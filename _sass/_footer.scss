@@ -1,9 +1,14 @@
 
 .fixed-bottom {
- position: static;}
+    position: static;
+    }
 
- .socialmedia{
-    height: 60px;
-   margin-top:10px;
-   
- }
+ .footer {
+    margin-top: 100px;
+    background:$primary;
+    position: relative;
+    }
+
+.footertekst {
+    color:white;
+    }

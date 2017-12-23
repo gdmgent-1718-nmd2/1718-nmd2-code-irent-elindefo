@@ -1,10 +1,23 @@
-<nav class="navbar fixed-bottom navbar-light footer">
+    
+
+
+<nav class="navbar fixed-bottom navbar-light footer ">
 {%- if site.show-style-guide %}
+
+<div class="float-right" >
+    <A HREF="#boven" >
+        <img src="{{ site.baseurl }}/assets/image/pijl.png"></img>
+    </A>
+
+</div>
+
+
 
 <div class="col-12 col-md-12 text-center ">
     <br>
     <img height=75 src="{{ site.baseurl }}/assets/image/tekstlogo.png">
 </div>
+
 <div class="col-12 col-md-12 text-center ">
     <a href="{{ site.baseurl }}" class="footertekst"> Meeuwstraat 80, 9000 Gent | 051 78 64 23 | pulmino@gmail.com</a>
     {%- endif %}
@@ -15,10 +28,8 @@
 <div class="col-12 text-center">
     <img height=40 src="{{ site.baseurl }}/assets/image/fb.png">
     <img height=48 src="{{ site.baseurl }}/assets/image/instagram.png">
-    <A HREF="#boven" >
-        <img class="pijl" src="{{ site.baseurl }}/assets/image/pijl.png"></img>
-    </A>
     {% include navfooter.html %}
 </div>
+
 <br>
 </nav>

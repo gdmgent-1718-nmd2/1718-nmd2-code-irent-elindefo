@@ -151,7 +151,6 @@ input[type="date"] {
     width: 100%;
     }
 
-
 /***********************************************************/
 
 .header {
@@ -163,17 +162,17 @@ input[type="date"] {
 
 
 /* Vakjes betalen **********************************************************/
-
 .button {
     position: relative;
     border-bottom: $darkgreen;
     background: #fafafa;
     cursor: pointer;
-    margin-top: 30px;
-    margin-left:25px;
+    margin-bottom:20px;
     float: left;
-    width: 140px;
+    width: 120px;
     height: 180px;
+    margin-right: 15px;
+    margin-left: 45px;
     padding: 50px 0 0;
     font-size: 12px;
     line-height: 1;
@@ -188,7 +187,7 @@ input[type="date"] {
   content: '';
     position: absolute;
     top: 15px;
-    left: 18px;
+    left: 50px;
     display: block;
     width: 20px;
     height: 20px;
@@ -197,11 +196,24 @@ input[type="date"] {
     background: #fff;
     }
 
-  .button:after {
+.button:after {
     top: 15px;
-    left: 60px;
+    left: 50px;
     }
-  .lijntje {
+
+.button:hover:after {
+    background: #bbb;
+    }
+      
+.button.active:after {
+    background: #555;
+    }
+
+
+
+
+
+.lijntje {
     border: 1px solid $darkgreen;
     width: 50px;
     margin-bottom: 5%;
@@ -217,10 +229,6 @@ input[type="date"] {
 
 
 
-
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {  
@@ -259,14 +267,6 @@ input[type="date"] {
     .btn{
         width: 300px;
         }
-    .betaalvakjes {
-        margin-left:280px;
-        margin-bottom:20px;
-        }
-
-
-
-
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -275,5 +275,3 @@ input[type="date"] {
         display: none;
         }
  }
-
-

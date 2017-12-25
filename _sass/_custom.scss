@@ -1,4 +1,3 @@
-
 /*TYPOGRAFIE*/
 p,
 .tekst{
@@ -23,86 +22,53 @@ h3{
     color: $darkgreen;
     }
 
+
+/*________________________HOME_______________________*/
+.iconen{
+    height: 70px;
+    margin-bottom: 20px;
+    margin-top:20px;
+    }
+
+.grijzekader{
+    background-color: rgb(235, 235, 235);
+    margin-bottom: 40px;
+    }
+
+/*________________________INFO_______________________*/
+.weg{
+    opacity: 0.8;
+    margin-top:30px;
+    margin-bottom:30px;
+    }
+
 .onderschrift{
     font-size:0.8rem;
     margin: 40px 0px 30px 0px;
     }
 
-.tekstpulmino{
-    color: $darkgreen;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom:60px;
-    }
-
+/*________________________PULMINO_______________________*/
 .opening,
 .betaling{
     font-style: italic;
     margin-bottom: 25px;
     }
 
-/*VARIA*/
-.center{
+.tekstpulmino{
+    color: $darkgreen;
     text-align: center;
-    }
-
-/*groene knoppen*/
-.btn{
-    width: 230px;
-    border-radius: 2em;
     margin-top: 30px;
-    margin-bottom: 100px;
-    color: white;
-    font-size: 1rem;
     }
 
-.btn:hover{
-    color: white;
+.fotospulmino{
+    margin-top: 60px;
     }
-
-.iconenhome{
-    height: 80px;
-    margin-bottom: 20px;
-    }
-
-.iconeninfo{
-    height: 70px;
-    margin-bottom: 20px;
-    }
-
-.grijzekader{
-    background-color: rgb(235, 235, 235);
-    }
-
-a:link{
-    text-decoration: none;
-    }
-
-.weg{
-    opacity: 0.9;
-    margin-top:30px;
-    margin-bottom:30px;
-    }
-
-.fotobevestiging{
-    opacity: 0.8;
-    margin-top:30px;
-    margin-bottom:30px;
-    }
-
-.titel {
-    margin-bottom: 30px;
-    }
-
-.gmap {
-    -webkit-filter: grayscale(100%);
-    opacity: 0.8;
-
-    }
-
-/* SELECTIE */
-.checkbox:hover {
-    color:$darkgreen;
+    
+/*________________________HUUR_______________________*/
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.2rem ;
     }
 
 /* andere vakjes weg en vervagen  */
@@ -127,41 +93,24 @@ input[type=checkbox]+label:before {
 input[type=checkbox]:checked+label:before {
     background: $darkgreen;
     }
-
+/* tabel */
 .table th, .table td {
     border-top: 1px solid #ffffff;
+    padding: 0.50rem;
+    }
+    
+#date {
+    color: $darkgreen;
+    border-radius: 0.5rem;
+    border: 0.5px solid rgb(194, 194, 194);
+    padding: 2%;
     }
 
-.form-control {
-    display: block;
-    width: 100%;
-    padding: 0.2rem ;
-    }
+/*________________________OVERZICHT_______________________*/
 
-.aantaldagen{
-    padding: 0.2rem ;
-    margin-left:20px; 
-    }
+/*________________________BETALING_______________________*/
 
-.banken{
-    width: 75px;
-    margin-bottom:10px;
-    }
-input[type="date"] {
-    width: 100%;
-    }
-
-/***********************************************************/
-
-.header {
-    padding: 30px 0;
-    font-size: 20px;
-    text-align: center;
-    border-bottom: 1px solid #bbb;
-    }
-
-
-/* Vakjes betalen **********************************************************/
+/* Vakjes betalen */
 .button {
     position: relative;
     border-bottom: $darkgreen;
@@ -210,8 +159,50 @@ input[type="date"] {
     background: #555;
     }
 
+.banken{
+    width: 75px;
+    margin-bottom:10px;
+    }
+/*________________________DOORVERWIJZEN_______________________*/
 
+.titel {
+    margin-bottom: 30px;
+    }
 
+/*________________________BEVESTIGING_______________________*/
+.fotobevestiging{
+    opacity: 0.8;
+    margin-top:30px;
+    margin-bottom:30px;
+    }
+/*________________________CONTACT_______________________*/
+.gmap {
+    -webkit-filter: grayscale(100%);
+    opacity: 0.8;
+    }
+
+input[type="date"] {
+    width: 100%;
+    }
+
+/*________________________ALGEMEEN___________________*/
+.center{
+    text-align: center;
+    }
+
+/*buttons*/
+.btn{
+    width: 230px;
+    border-radius: 2em;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: white;
+    font-size: 1rem;
+    }
+
+.btn:hover{
+    color: white;
+    }
 
 
 .lijntje {
@@ -221,13 +212,9 @@ input[type="date"] {
     border-radius: 1rem;
     }
 
-#date {
-    color: $darkgreen;
-    border-radius: 0.5rem;
-    border: 0.5px solid rgb(194, 194, 194);
-    padding: 2%;
-}
-
+a:link{
+    text-decoration: none;
+    }
 
 
 
@@ -241,8 +228,11 @@ input[type="date"] {
 // Medium devices (tablets, 768px and up)
 @media (min-width: 400px) { 
     .tekstpulmino{
-        margin-top: 70px;
+        margin-top: 75px;
         }
+    .fotospulmino{
+        margin-top: 10px;
+        }    
     .tabletdn{
         display: none;
         }
@@ -261,10 +251,13 @@ input[type="date"] {
         margin-left: 80px;
         margin-right: 80px;
         }
-    .fotospgpulmino {
+    .fotospulmino {
         height: 250px;
         opacity: 0.8;
         }
+    .tekstpulmino{
+        margin-top:120px;
+    }
     .btn{
         width: 300px;
         }
@@ -277,6 +270,9 @@ input[type="date"] {
     .button:after {
         left: 60px;
         }
+    .table th, .table td {
+        padding: 1rem;
+            }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -285,3 +281,26 @@ input[type="date"] {
         display: none;
         }
  }
+
+
+
+
+
+
+
+
+
+ /*_________________________WEGDOEN_______________*/
+ /*
+.header {
+    padding: 30px 0;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+    }*/
+
+    /* SELECTIE 
+.checkbox:hover {
+    color:$darkgreen;
+    }
+*/

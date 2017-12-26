@@ -3,24 +3,25 @@
         <img src="{{ site.baseurl }}/assets/image/pijl.jpg"></img>
     </A>
 </div>
+
 <nav class="navbar fixed-bottom navbar-light footer ">
 {%- if site.show-style-guide %}
 
-<div class="col-12 col-md-12 text-center ">
+    <div class="col-12 col-md-12 text-center ">
+        <br>
+        <img height=75 src="{{ site.baseurl }}/assets/image/tekstlogo.png">
+    </div>
+
+    <div class="col-12 col-md-12 text-center ">
+        <p class="footertekst"> Meeuwstraat 80, 9000 Gent | 051 78 64 23 | pulmino@gmail.com</p>
+        {%- endif %}
+    </div>
+
+    <div class="col-12 text-center ">
+        <img height=37 class="socialmedia" src="{{ site.baseurl }}/assets/image/fb.png">
+        <img height=45 class="socialmedia" src="{{ site.baseurl }}/assets/image/instagram.png">
+        {% include navfooter.html %}
+    </div>
     <br>
-    <img height=75 src="{{ site.baseurl }}/assets/image/tekstlogo.png">
-</div>
-
-<div class="col-12 col-md-12 text-center ">
-    <p class="footertekst"> Meeuwstraat 80, 9000 Gent | 051 78 64 23 | pulmino@gmail.com</p>
-    {%- endif %}
-</div>
-
-<div class="col-12 text-center ">
-    <img height=37 class="socialmedia" src="{{ site.baseurl }}/assets/image/fb.png">
-    <img height=45 class="socialmedia" src="{{ site.baseurl }}/assets/image/instagram.png">
-    {% include navfooter.html %}
-</div>
-
-<br>
+    
 </nav>

@@ -63,7 +63,6 @@ h3{
 .fotospulmino{
     margin-top: 60px;
     }
-    
 /*________________________HUUR_______________________*/
 .form-control {
     display: block;
@@ -154,7 +153,7 @@ input[type=checkbox]:checked+label:before {
 .button:hover:after {
     background: #bbb;
     }
-      
+
 .button.active:after {
     background: #555;
     }
@@ -204,7 +203,6 @@ input[type="date"] {
     color: white;
     }
 
-
 .lijntje {
     border: 1px solid $darkgreen;
     width: 50px;
@@ -215,8 +213,6 @@ input[type="date"] {
 a:link{
     text-decoration: none;
     }
-
-
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {  
@@ -257,7 +253,7 @@ a:link{
         }
     .tekstpulmino{
         margin-top:120px;
-    }
+        }
     .btn{
         width: 300px;
         }
@@ -272,7 +268,7 @@ a:link{
         }
     .table th, .table td {
         padding: 1rem;
-            }
+        }
 }
 
 // Extra large devices (large desktops, 1200px and up)
@@ -285,22 +281,3 @@ a:link{
 
 
 
-
-
-
-
-
- /*_________________________WEGDOEN_______________*/
- /*
-.header {
-    padding: 30px 0;
-    font-size: 20px;
-    text-align: center;
-    border-bottom: 1px solid #bbb;
-    }*/
-
-    /* SELECTIE 
-.checkbox:hover {
-    color:$darkgreen;
-    }
-*/
